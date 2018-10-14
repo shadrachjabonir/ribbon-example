@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tes-ribbon-client.iml" filepath="$PROJECT_DIR$/.idea/modules/tes-ribbon-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tes-ribbon-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tes-ribbon-client_main.iml" group="tes-ribbon-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tes-ribbon-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tes-ribbon-client_test.iml" group="tes-ribbon-client" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: client-app
+
+server:
+  port: 6001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://10.11.17.42:7002/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+
+server-app:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:6000
+    ServerListRefreshInterval: 15000
